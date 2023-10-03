@@ -42914,7 +42914,7 @@ xh(a,b,c,d,e){return this.adk(a,b,c,d,e)},
 adk(a,b,c,d,e){var s=0,r=A.V(t.z),q,p
 var $async$xh=A.W(function(f,g){if(f===1)return A.S(g,r)
 while(true)switch(s){case 0:q=t.N
-p=A.az(["Access-Control-Allow-Origin","https://issacwilliandev.github.io"],q,q)
+p=A.az(["Access-Control-Allow-Origin","*"],q,q)
 new A.a2P("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").dZ(0,new A.Zx(A.a([new A.qW(A.a([new A.mS("issacwillian002@gmail.com",d)],t.Zs))],t.qB),B.xX,"Novo cadastro de aluno",A.a([new A.pM("text/plain","Um novo aluno se inscreveu para ganhar um curso gr\xe1tis...\n\nNome: "+d+"\nTelefone:"+e+"\nEmail: "+c+"\nCurso selecionado: "+b)],t.kQ),p)).bJ(new A.aj2(a),t.P).l4(new A.aj3(a))
 return A.T(null,r)}})
 return A.U($async$xh,r)}}
@@ -42928,7 +42928,7 @@ return null},
 $S:0}
 A.aj3.prototype={
 $1(a){var s=this.a
-A.ak9(A.a([A.akt(B.xm,new A.aj0(s),120)],t._d),s,"error.toString()","Error",B.xY).ne(0)},
+A.ak9(A.a([A.akt(B.xm,new A.aj0(s),120)],t._d),s,a,"Error",B.xY).ne(0)},
 $S:21}
 A.aj0.prototype={
 $0(){A.k3(this.a,!1).tr(null)
@@ -78766,16 +78766,17 @@ s=1
 break
 case 1:return A.T(q,r)}})
 return A.U($async$ne,r)},
-Zu(){var s=this,r=null,q=A.EZ(B.jr),p=A.a1(s.b),o=A.iw(10),n=s.a1t(),m=new A.ab(20,0,20,0),l=t.p,k=A.a([A.hz(s.a1G(),r,r)],l),j=new A.ab(0,15,0,10)
+Zu(){var s=this,r=null,q=A.EZ(B.jr),p=A.a1(s.b),o=A.iw(10),n=s.a1t(),m=new A.ab(20,0,20,0),l=t.p,k=A.a([A.hz(s.a1G(),r,r)],l),j=new A.ab(0,15,0,s.w==null?0:10)
 k.push(new A.cb(j,s.Kb(!1,s.r,B.Ox,B.ej),r))
-k.push(new A.cb(B.ax,s.Kb(!1,s.w,B.Oy,B.ej),r))
+j=s.w
+if(j!=null)k.push(new A.cb(B.ax,s.Kb(!1,j,B.Oy,B.ej),r))
 k.push(B.L7)
 n=A.bD(r,A.hz(A.eV(A.a([n,new A.cb(m,A.eV(k,B.eL,B.H,B.be),r)],l),B.aE,B.r6,B.be),r,r),B.l,r,r,r,r,r,r,r)
 m=A.eb(s.a1s(),B.H1,B.be)
 p=A.alt(new A.Et(n,B.ax,m,B.lv,p.ay,r,B.C6,new A.cv(o,new A.bR(B.Hp,1,B.a7,-1)),r))
 return new A.is(B.S,r,r,new A.eX(q,p,r),r)},
 Kb(a,b,c,d){var s=null
-return A.cl(b,s,s,s,c,d,s)},
+return A.cl(b==null?"":b,s,s,s,c,d,s)},
 a1t(){var s=null,r=A.bD(s,s,B.l,s,s,new A.d0(s,new A.G2(new A.pq("assets/images/close.png",s,"rflutter_alert")),s,s,s,s,B.aB),20,s,s,20)
 r=new A.cb(B.BW,A.qd(s,A.bD(B.Cu,r,B.l,s,s,s,s,s,s,s),B.ap,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.VA(this),s,s,s),s)
 return r},
