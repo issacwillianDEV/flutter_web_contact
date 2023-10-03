@@ -78830,7 +78830,7 @@ var $async$dZ=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:l=new A.dU(t.fV)
 l.m(0,"Authorization","Bearer "+p.a)
 l.m(0,"Content-Type","application/json")
-l.m(0,"Access-Control-Allow-Origin","https://issacwilliandev.github.io/")
+l.m(0,"Access-Control-Allow-Origin","https://issacwilliandev.github.io/flutter_web_contact/")
 l.m(0,"Access-Control-Allow-Methods","DELETE, POST, GET, OPTIONS")
 l.m(0,"Access-Control-Allow-Headers","Content-Type, Authorization, X-Requested-With")
 s=3
